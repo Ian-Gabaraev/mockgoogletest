@@ -45,7 +45,6 @@ def string_to_time(string):
     split_string = string.split(':')
     return time(hour=int(split_string[0]), minute=int(split_string[1]))
 
-
 def get_user_intervals(intervals_as_list):
     result = list()
     for timestamp in intervals_as_list:
@@ -53,7 +52,6 @@ def get_user_intervals(intervals_as_list):
                                    end=string_to_time(timestamp[1]),
                                    step=0.5)
     return result
-
 
 def calculate_possible_meeting_time(user_one_bound, user_two_bound,
                                     user_one_calendar, user_two_calendar, duration):
