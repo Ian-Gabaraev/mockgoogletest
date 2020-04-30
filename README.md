@@ -1,4 +1,4 @@
-# Solution for Clément Mihailescu mock Google interview task
+# Solution for Clément Mihailescu's mock Google interview task
 This is my solution for the task about calendars featured in https://www.youtube.com/watch?v=3Q_oYDQ2whs
 
 Условие:
